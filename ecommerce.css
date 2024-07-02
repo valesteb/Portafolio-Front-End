@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #860000;
+    padding: 1rem;
+  } 
+ 
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }  
+  
+ .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-button {
+    background-color: rgba(17, 0, 46, 0.6);
+    color:beige;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-button:hover {
+    background-color: #860000;
+  }
+
+#header-logo{
+ width: 33.33%;
+ min-height: auto;
+ padding: 3px;
+ 
+}
+
+#index {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(76, 0, 0, 0.8), rgba(178, 0, 0, 0.8));
+    background-size: cover;
+    background-position: center;
+}
+
+#index section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: ;
+    margin: 20px;
+    background-color: rgba(17, 0, 46, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    color:beige;
+    height: 100%;
+}
+
+#index section .image {
+    flex-basis: 40%;
+    padding: 20px;
+}
+
+#index section .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#index section .text {
+    flex-basis: 60%;
+    padding: 20px;
+}
+
+#index section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#index section p {
+    font-size: 18px;
+}
+
+#catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 33.33%;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-info {
+    margin-top: 20px;
+}
+
