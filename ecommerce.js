@@ -1,6 +1,13 @@
 import 
 
-document.getElementById('index').addEventListener('click', function() {
+document.querySelector('.forgot-password').addEventListener('click', function(event) {
+    event.preventDefault();
+    // Add logic to reset password here
+    console.log('Forgot password link clicked!');
+});
+    
+    
+    document.getElementById('index').addEventListener('click', function() {
     window.location.href = 'index.html';
 });
 
