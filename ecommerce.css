@@ -112,3 +112,13 @@ header {
     margin-top: 20px;
 }
 
+fieldset > * {
+    display: block;
+    margin-bottom: 1rem;
+}
+    
+select,
+textarea,
+button {
+    font-family: Jost, sans-serif;
+}
